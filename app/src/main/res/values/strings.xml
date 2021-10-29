@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="title">Registration Form</string>
+    <string-array name="city">
+        <item>Rajkot</item>
+        <item>Junagadh</item>
+        <item>Jamnagar</item>
+        <item>Vadodara</item>
+        <item>Ahmedabad</item>
+        <item>Surat</item>
+    </string-array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/txtfnm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtlnm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:layout_below="@id/txtfnm"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtunm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:layout_below="@id/txtlnm"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_below="@id/txtunm"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtbranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch:"
+            android:layout_below="@id/txtpass"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City:"
+            android:layout_below="@id/txtbranch"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtgen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:layout_below="@id/txtcity"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:layout_below="@id/txtgen"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
